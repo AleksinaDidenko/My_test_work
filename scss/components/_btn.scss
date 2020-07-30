@@ -1,0 +1,17 @@
+.btn {
+  max-width: 152px;
+  width: 100%;
+  padding: 10px 0 10px 0;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 400;
+  cursor: pointer;
+}
+.btn_register {
+  background-image: linear-gradient(-30deg, #ffb300 0%, #aa7700 100%);
+}
+.btn_login {
+  background-image: linear-gradient(-30deg, #4fb5e1 0%, #004b6c 100%);
+}

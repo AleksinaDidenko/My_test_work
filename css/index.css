@@ -1,0 +1,233 @@
+@font-face {
+  font-family: "MyriadProRegular";
+  src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+  src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"), url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+*,
+*::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  position: relative; }
+
+.bg__img {
+  width: 100%;
+  object-fit: contain; }
+
+.form__section {
+  max-width: 1114px;
+  width: 100%;
+  position: absolute;
+  top: 20%;
+  left: 0; }
+  .form__section .form__wrapper {
+    max-width: 827px;
+    width: 100%;
+    margin: 0 auto; }
+    .form__section .form__wrapper .title__before_form {
+      max-width: 1000px;
+      width: 100%;
+      padding-bottom: 90px;
+      margin: 0 auto;
+      position: relative; }
+      .form__section .form__wrapper .title__before_form h2 {
+        font-size: 28px;
+        color: #b0b0b0;
+        font-weight: 600;
+        position: absolute;
+        top: 0;
+        left: 35%; }
+    .form__section .form__wrapper .form {
+      border-radius: 10px;
+      background-color: #f5f5f5;
+      border: 1px solid #cecece2f; }
+      .form__section .form__wrapper .form .head {
+        background-color: #34b7ce;
+        border-radius: 10px 10px 0 0;
+        padding: 20px 35px;
+        align-items: center;
+        text-align: center;
+        display: flex; }
+        .form__section .form__wrapper .form .head .reg__logo {
+          background: #259cb1;
+          border-radius: 50%;
+          width: 80px;
+          height: 80px;
+          padding: 0;
+          margin-right: 35px;
+          position: relative; }
+          .form__section .form__wrapper .form .head .reg__logo img {
+            position: absolute;
+            top: 29%;
+            left: 28%; }
+        .form__section .form__wrapper .form .head h1 {
+          font-size: 34px;
+          color: #ffffff;
+          font-weight: 600; }
+      .form__section .form__wrapper .form .form__items {
+        display: flex;
+        justify-content: space-between; }
+        .form__section .form__wrapper .form .form__items .form__item {
+          max-width: calc(100% / 2);
+          width: 100%;
+          justify-content: center; }
+          .form__section .form__wrapper .form .form__items .form__item input:focus {
+            outline: none; }
+
+.form .login {
+  padding: 27px; }
+  .form .login .login__head {
+    padding: 25px;
+    margin-bottom: 30px;
+    position: relative;
+    align-items: center;
+    justify-content: center; }
+    .form .login .login__head::after {
+      content: "";
+      position: absolute;
+      top: 45%;
+      left: 0;
+      height: 1px;
+      width: 100%;
+      border-radius: 50px;
+      background: radial-gradient(ellipse at center, #e7e5e5, #f5f5f565); }
+    .form .login .login__head .login__logo {
+      width: 33px;
+      height: 33px;
+      border-radius: 17px;
+      background-color: #eaeaea;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      text-align: center;
+      position: absolute;
+      top: 15%;
+      left: 45%;
+      z-index: 2; }
+      .form .login .login__head .login__logo p {
+        font-size: 22px;
+        color: #bbbbbb;
+        font-weight: 600;
+        font-family: "Source Sans Pro", sans-serif; }
+  .form .login .login__input {
+    margin-bottom: 32px;
+    padding: 25px 55px 20px 55px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1); }
+    .form .login .login__input::-webkit-input-placeholder {
+      font-size: 22px;
+      color: #e9e9e9;
+      font-weight: 400; }
+    .form .login .login__input:-moz-placeholder {
+      font-size: 22px;
+      color: #e9e9e9;
+      font-weight: 400; }
+    .form .login .login__input::-moz-placeholder {
+      font-size: 22px;
+      color: #e9e9e9;
+      font-weight: 400; }
+    .form .login .login__input:-ms-input-placeholder {
+      font-size: 22px;
+      color: #e9e9e9;
+      font-weight: 400; }
+  .form .login .checkbox__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    cursor: pointer; }
+    .form .login .checkbox__item .checkbox__div {
+      max-width: 200px;
+      width: 100%;
+      padding: 0;
+      position: relative; }
+      .form .login .checkbox__item .checkbox__div input {
+        display: none; }
+      .form .login .checkbox__item .checkbox__div .checkbox {
+        position: absolute;
+        top: -10px;
+        left: 0;
+        width: 25px;
+        height: 25px;
+        border-radius: 5px;
+        border: none;
+        background-color: #e1e1e1; }
+      .form .login .checkbox__item .checkbox__div p {
+        font-size: 14px;
+        margin-left: 40px;
+        position: absolute;
+        top: -6px;
+        left: 0;
+        color: #cbcbcb;
+        font-weight: 600; }
+    .form .login .checkbox__item .hover__checkboxMassege {
+      position: absolute;
+      top: 50px;
+      left: -140px;
+      width: 256px;
+      border-radius: 8px;
+      box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+      background-color: #ffffff;
+      padding: 16px 20px;
+      font-size: 14px;
+      font-family: "MyriadProRegular";
+      color: #cbcbcb;
+      display: none; }
+    .form .login .checkbox__item.active {
+      display: flex; }
+
+.form .register {
+  padding: 27px 27px 27px 0px; }
+  .form .register p {
+    font-size: 20px;
+    color: #b7b7b7;
+    font-weight: 600; }
+  .form .register .register__items {
+    margin-top: 20px;
+    padding-bottom: 25px;
+    border-left: 1px solid #e7e7e7;
+    width: 100%; }
+    .form .register .register__items .register__item {
+      margin-top: 25px;
+      margin-left: 25px;
+      padding-right: 25px;
+      width: 100%; }
+      .form .register .register__items .register__item .register__label {
+        width: 100%;
+        font-size: 16px;
+        color: #b7b7b7;
+        font-weight: 400; }
+      .form .register .register__items .register__item .register__input {
+        margin-top: 15px;
+        width: 100%;
+        padding: 15px;
+        border-radius: 10px;
+        background-color: #ffffff;
+        border: 1px solid rgba(0, 0, 0, 0.1); }
+  .form .register .registerBtn__wrapper {
+    margin-left: 60%;
+    padding-right: 25px;
+    width: 100%; }
+
+.btn {
+  max-width: 152px;
+  width: 100%;
+  padding: 10px 0 10px 0;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 400;
+  cursor: pointer; }
+
+.btn_register {
+  background-image: linear-gradient(-30deg, #ffb300 0%, #aa7700 100%); }
+
+.btn_login {
+  background-image: linear-gradient(-30deg, #4fb5e1 0%, #004b6c 100%); }

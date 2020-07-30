@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <img class="bg__img" src="./img/section_bg.png" alt="bgForBody" />
+    <section class="form__section">
+      <div class="form__wrapper">
+        <div class="title__before_form">
+          <h2>Login To Your Account / Register New</h2>
+        </div>
+        <form
+          class="form"
+          action="./php/form.php"
+          name="login_form"
+          method="post"
+        >
+          <div class="head">
+            <div class="reg__logo">
+              <img src="./img/form__head_logo.png" alt="" />
+            </div>
+            <h1>Login To Your Account / Register New</h1>
+          </div>
+          <div class="form__items">
+            <div class="form__item login">
+              <div class="login__head">
+                <div class="login__logo">
+                  <p>&#8260;</p>
+                </div>
+              </div>
+
+              <input
+                type="text"
+                class="login__input"
+                id="login__name"
+                placeholder="User Name"
+              />
+              <input
+                type="password"
+                class="login__input"
+                id="login__password"
+                placeholder="Password"
+              />
+
+              <div class="checkbox__item">
+                <div class="checkbox__div">
+                  <input type="checkbox" name="check__pass" id="check__pass" />
+                  <label class="checkbox" for="check__pass"></label>
+                  <p>Remember My password</p>
+                </div>
+                <div class="hover__checkboxMassege">
+                  <p>
+                    You no longer need to enter a password every time you use
+                    the site
+                  </p>
+                </div>
+                <input class="btn btn_login" type="submit" value="Login" />
+              </div>
+            </div>
+
+            <div class="form__item register">
+              <p>Register</p>
+              <div class="register__items">
+                <div class="register__item">
+                  <label class="register__label" for="registerEmail"
+                    >Email</label
+                  ><input
+                    type="email"
+                    id="registerEmail"
+                    name="email"
+                    class="register__input"
+                  />
+                </div>
+                <div class="register__item">
+                  <label class="register__label" for="registerUserName"
+                    >User Name</label
+                  ><input
+                    type="text"
+                    id="registerUserName"
+                    name="name"
+                    class="register__input"
+                  />
+                </div>
+                <div class="register__item">
+                  <label class="register__label" for="registerPassword"
+                    >Password</label
+                  ><input
+                    type="password"
+                    id="registerPassword"
+                    name="password"
+                    class="register__input"
+                  />
+                </div>
+              </div>
+              <div class="registerBtn__wrapper">
+                <input
+                  class="btn btn_register"
+                  type="submit"
+                  value="Register"
+                />
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+.form {
+  .register {
+    padding: 27px 27px 27px 0px;
+    p {
+      font-size: 20px;
+      color: #b7b7b7;
+      font-weight: 600;
+    }
+
+    .register__items {
+      margin-top: 20px;
+      padding-bottom: 25px;
+      border-left: 1px solid #e7e7e7;
+      width: 100%;
+      .register__item {
+        margin-top: 25px;
+        margin-left: 25px;
+        padding-right: 25px;
+        width: 100%;
+        .register__label {
+          width: 100%;
+          font-size: 16px;
+          color: #b7b7b7;
+          font-weight: 400;
+        }
+        .register__input {
+          margin-top: 15px;
+          width: 100%;
+          padding: 15px;
+          border-radius: 10px;
+          background-color: #ffffff;
+          border: 1px solid rgba(0, 0, 0, 0.1);
+        }
+      }
+    }
+    .registerBtn__wrapper {
+      margin-left: 60%;
+      padding-right: 25px;
+      width: 100%;
+    }
+  }
+}
