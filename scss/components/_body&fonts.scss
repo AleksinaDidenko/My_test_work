@@ -18,11 +18,17 @@
   box-sizing: border-box;
 }
 body {
+  background: url("../../img/Form-style3.png") no-repeat center;
   font-family: "Source Sans Pro", sans-serif;
-  position: relative;
-}
-
-.bg__img {
-  width: 100%;
-  object-fit: contain;
+  display: flex;
+  .container {
+    max-width: 1200px;
+    width: 100%;
+    // height: 100vh;
+    margin: 0 auto;
+    padding: 22vh 0 15vh 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }

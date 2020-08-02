@@ -1,28 +1,15 @@
-.form__section {
-  max-width: 1114px;
-  width: 100%;
-  position: absolute;
-  top: 20%;
-  left: 0;
+.container {
   .form__wrapper {
     max-width: 827px;
     width: 100%;
-    margin: 0 auto;
-
-    .title__before_form {
-      max-width: 1000px;
-      width: 100%;
-      padding-bottom: 90px;
-      margin: 0 auto;
-      position: relative;
-      h2 {
-        font-size: 28px;
-        color: #b0b0b0;
-        font-weight: 600;
-        position: absolute;
-        top: 0;
-        left: 35%;
-      }
+    .title {
+      font-weight: 600;
+    }
+    .before__form {
+      font-size: 28px;
+      color: #b0b0b0;
+      margin: 0px 60px 40px 60px;
+      text-align: right;
     }
     .form {
       border-radius: 10px;

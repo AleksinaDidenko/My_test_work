@@ -13,72 +13,64 @@
   box-sizing: border-box; }
 
 body {
+  background: url("../../img/Form-style3.png") no-repeat center;
   font-family: "Source Sans Pro", sans-serif;
-  position: relative; }
-
-.bg__img {
-  width: 100%;
-  object-fit: contain; }
-
-.form__section {
-  max-width: 1114px;
-  width: 100%;
-  position: absolute;
-  top: 20%;
-  left: 0; }
-  .form__section .form__wrapper {
-    max-width: 827px;
+  display: flex; }
+  body .container {
+    max-width: 1200px;
     width: 100%;
-    margin: 0 auto; }
-    .form__section .form__wrapper .title__before_form {
-      max-width: 1000px;
-      width: 100%;
-      padding-bottom: 90px;
-      margin: 0 auto;
-      position: relative; }
-      .form__section .form__wrapper .title__before_form h2 {
-        font-size: 28px;
-        color: #b0b0b0;
-        font-weight: 600;
-        position: absolute;
-        top: 0;
-        left: 35%; }
-    .form__section .form__wrapper .form {
-      border-radius: 10px;
-      background-color: #f5f5f5;
-      border: 1px solid #cecece2f; }
-      .form__section .form__wrapper .form .head {
-        background-color: #34b7ce;
-        border-radius: 10px 10px 0 0;
-        padding: 20px 35px;
-        align-items: center;
-        text-align: center;
-        display: flex; }
-        .form__section .form__wrapper .form .head .reg__logo {
-          background: #259cb1;
-          border-radius: 50%;
-          width: 80px;
-          height: 80px;
-          padding: 0;
-          margin-right: 35px;
-          position: relative; }
-          .form__section .form__wrapper .form .head .reg__logo img {
-            position: absolute;
-            top: 29%;
-            left: 28%; }
-        .form__section .form__wrapper .form .head h1 {
-          font-size: 34px;
-          color: #ffffff;
-          font-weight: 600; }
-      .form__section .form__wrapper .form .form__items {
-        display: flex;
-        justify-content: space-between; }
-        .form__section .form__wrapper .form .form__items .form__item {
-          max-width: calc(100% / 2);
-          width: 100%;
-          justify-content: center; }
-          .form__section .form__wrapper .form .form__items .form__item input:focus {
-            outline: none; }
+    margin: 0 auto;
+    padding: 22vh 0 15vh 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+
+.container .form__wrapper {
+  max-width: 827px;
+  width: 100%; }
+  .container .form__wrapper .title {
+    font-weight: 600; }
+  .container .form__wrapper .before__form {
+    font-size: 28px;
+    color: #b0b0b0;
+    margin: 0px 60px 40px 60px;
+    text-align: right; }
+  .container .form__wrapper .form {
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #cecece2f; }
+    .container .form__wrapper .form .head {
+      background-color: #34b7ce;
+      border-radius: 10px 10px 0 0;
+      padding: 20px 35px;
+      align-items: center;
+      text-align: center;
+      display: flex; }
+      .container .form__wrapper .form .head .reg__logo {
+        background: #259cb1;
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+        padding: 0;
+        margin-right: 35px;
+        position: relative; }
+        .container .form__wrapper .form .head .reg__logo img {
+          position: absolute;
+          top: 29%;
+          left: 28%; }
+      .container .form__wrapper .form .head h1 {
+        font-size: 34px;
+        color: #ffffff;
+        font-weight: 600; }
+    .container .form__wrapper .form .form__items {
+      display: flex;
+      justify-content: space-between; }
+      .container .form__wrapper .form .form__items .form__item {
+        max-width: calc(100% / 2);
+        width: 100%;
+        justify-content: center; }
+        .container .form__wrapper .form .form__items .form__item input:focus {
+          outline: none; }
 
 .form .login {
   padding: 27px; }
